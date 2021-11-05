@@ -1,6 +1,6 @@
 <!-- IMPORTANDO O HEADER -->
 <?php 
-  require_once('config.php');
+  require_once('../config.php');
   include(HEADER_TEMPLATE2); 
 ?>
 
@@ -13,7 +13,7 @@
             <h1 class="display-4 text-left">Minhas Requisições</h1>
         </div>
         <div class="botao text-right">
-            <a role="button" class="btn btn-outline-info" href="/crudSimulacao/requisicoes1.php">Nova Requisição</a>
+            <a role="button" class="btn btn-outline-info" href="/crudSimulacao/requisicoes/requisicoes1.php">Nova Requisição</a>
         </div>
       </div>
       <br></br>
@@ -22,10 +22,10 @@
 
   <body>
     <div class="container">
-        <div class="row justify-content-center align-items-center" style="width: 105%; background-color: #44245E; margin-top: 3%; margin-bottom: 3vh; display:flex; flex-direction:column;">
+        <div class="row justify-content-center align-items-center caixa-requisicoes">
             <br>
             <div class="list-group">
-                <a href="/crudSimulacao/processoReqProjeto.php" class="list-group-item list-group-item-action flex-column align-items-start active">
+                <a href="/crudSimulacao/requisicoes/processoReqProjeto.php" class="list-group-item list-group-item-action flex-column align-items-start active">
                     <div class="d-flex w-100 justify-content-between">
                         <h5 class="mb-1">Projeto apartamento Srta. Maria</h5>
                         <small>agora mesmo</small>
@@ -51,13 +51,24 @@
                 </a>
             </div>
             <br>
-            <a href="/crudSimulacao/requisicoes1.php" role="button" class="btn btn-light btn-lg btn-block">Nova requisição</a>
+            <a href="/crudSimulacao/requisicoes/requisicoes1.php" role="button" class="btn btn-light btn-lg btn-block">Nova requisição</a>
             <br>
         </div>
         <br><br>
         <br><br>
     </div>
   </body>
+
+  <style type="text/css">
+    .caixa-requisicoes{
+      display: flex;
+      flex-direction: column;
+      width: 105%;
+      background-color: #44245E;
+      margin-top: 3%;
+      margin-bottom: 3vh;
+    }
+  </style>
 <?php
   include(FOOTER_TEMPLATE);
 ?>

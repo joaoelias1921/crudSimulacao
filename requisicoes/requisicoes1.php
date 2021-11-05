@@ -1,11 +1,15 @@
 <!-- IMPORTANDO O HEADER -->
 <?php 
-  require_once('config.php');
+  require_once('../config.php');
   include(HEADER_TEMPLATE2); 
 ?>
 
   <br/>
   <hr/>
+  <head>
+    <link rel="stylesheet" href="/crudSimulacao/css/stylesRequisicoes12.css">
+  </head>
+
   <header>
     <div class="container">
       <div class="row justify-content-center align-items-center">
@@ -37,8 +41,8 @@
     <hr>
     <br><br>
     <div class="collapse" id="formInfo">
-      <div class="container" style="width: 90%; background-color: #44245E; margin-top: 3%; margin-bottom: 3vh; display:flex; flex-direction:column; align-items: center;">
-        <div class="container2" style="width: 85%; background-color:white; margin-top: 1%; margin-bottom: 3vh; display:flex; flex-direction:column; align-items: center;">
+      <div class="container caixa-roxa">
+        <div class="container-inputs">
           <br>
           <h2>Informações do seu cliente</h2>
           <br>
@@ -97,7 +101,7 @@
             </div>
             <br>
         </div>
-        <a href="/crudSimulacao/requisicoes2.php" class="btn btn-light btn-block" role="button">Avançar</a>
+        <a href="/crudSimulacao/requisicoes/requisicoes2.php" class="btn btn-light btn-block" role="button">Avançar</a>
         <br>    
       </div>
     </div>

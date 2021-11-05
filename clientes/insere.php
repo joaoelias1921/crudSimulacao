@@ -1,6 +1,6 @@
 <?php 
     // realizando as importações
-    require_once('funcoes.php');
+    require_once('../funcoes.php');
     // chamando a função para inserir os dados no banco
 ?>
 
@@ -26,7 +26,7 @@
                     </div>
                     <div class="form-row justify-content-center align-items-center">
                         <div class="col-md-12">
-                            <a role="button" href="cadastro.php" class="btn btn-primary" style="width: 57.5%">Continuar</a>
+                            <a role="button" href="/crudSimulacao/clientes/cadastro.php" class="btn btn-primary" style="width: 57.5%">Continuar</a>
                         </div>
                     </div>
                 </div>
@@ -55,26 +55,26 @@
                     <br>
                     <div class="form-row justify-content-center align-items-center">
                         <div class="col-md-12">
-                            <a role="button" href="/crudSimulacao/minhasReq.php" class="btn btn-primary" style="width: 57.5%">Continuar</a>
+                            <a role="button" href="/crudSimulacao/requisicoes/minhasReq.php" class="btn btn-primary" style="width: 57.5%">Continuar</a>
                         </div>
                     </div>
                     <div>
-                        <a href="/crudSimulacao/esqueciSenha.php">
+                        <a href="/crudSimulacao/clientes/esqueciSenha.php">
                             <span class="text-muted">Esqueci minha senha</span>
                         </a>
                     </div>
                 </div>
 
-                <div class="container" style="width: 100%;">
+                <div class="container">
                     <div class="form-row justify-content-center align-items-center"> 
                         <br><br><br>
                         <h5>Entre usando sua rede social!</h5>
-                        <a href="/crudSimulacao/index.php"> 
+                        <a href="/crudSimulacao/main/index.php"> 
                             <figure>
                                 <img src="/crudSimulacao/imagens/facebook.png" alt="Logo" width="30vw" height="30vh" style="margin-left: 30px;">
                             </figure>
                         </a>
-                        <a href="/crudSimulacao/index.php"> 
+                        <a href="/crudSimulacao/main/index.php"> 
                             <figure>
                                 <img src="/crudSimulacao/imagens/google.png" alt="Logo" width="30vw" height="30vh" style="margin-left: 30px;">
                             </figure>

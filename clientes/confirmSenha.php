@@ -1,6 +1,6 @@
 <!-- IMPORTANDO O HEADER -->
 <?php 
-  require_once('config.php');
+  require_once('../config.php');
   include(HEADER_TEMPLATE); 
 ?>
 
@@ -27,6 +27,3 @@
         </div>
     </div>
   </body>
-<?php
-  include(FOOTER_TEMPLATE);
-?>

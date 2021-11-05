@@ -1,11 +1,14 @@
 <!-- IMPORTANDO O HEADER -->
 <?php 
-  require_once('config.php');
+  require_once('../config.php');
   include(HEADER_TEMPLATE); 
 ?>
 
   <br/>
   <hr/>
+  <head>
+      <link rel="stylesheet" href="/crudSimulacao/css/stylesDownloadDemo.css">
+  </head>
   <header>
     <div class="container">
       <div class="row justify-content-center align-items-center">
@@ -20,7 +23,7 @@
   <body>
     <div class="container">
         <div class="row justify-content-center align-items-center">
-            <div class="container" style="width: 50%;">        
+            <div class="container-carrossel">        
                 <div id="carouselSite" class="carousel slide" data-ride="carousel">
                     <ol class="carousel-indicators">
                         <li class="active" data-target="#carouselSite" data-slide-to="0"></li>
@@ -48,7 +51,7 @@
                     </a>
                 </div>
             </div>
-            <div class="container" style="width: 50%;">                
+            <div class="container-downloads">                
                 <div class="downloads">
                     <select class="form-control" name="selectTipoD" id="selectTipoD">
                         <option value="0">Selecione um arquivo...</option>
@@ -62,8 +65,8 @@
             </div>
         </div>
         <br><br>
-        <div class="row justify-content-center align-items-center" style="color: white; background-color: #44245E">
-            <div class="container text-left" style="margin-top: 5vh; margin-bottom: 5vh;">
+        <div class="row justify-content-center caixa-comoF">
+            <div class="container caixa-comoF-inner">
                 <h3>Como funciona</h3>
                 <p>
                     Por aqui, é possível baixar o arquivo executável (com suas subpastas) da aplicação/simulação 3D. Também fornecemos a opção de mudar o formato que o arquivo será baixado, podendo ser apenas como um documento (PDF, JPEG, etc) ou como a simulação executável em si.

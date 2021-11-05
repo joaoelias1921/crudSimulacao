@@ -1,6 +1,6 @@
 <?php 
     // realizando as importações
-    require_once('funcoes.php');
+    require_once('../funcoes.php');
     // chamando a função para inserir os dados no banco
 ?>
 
@@ -11,7 +11,7 @@
 
     <br/>
     <hr/>
-    <h1 class="text-center">Seja bem-vindo à área de suporte.</h1>
+    <h1 class="text-center">Seja bem-vindo à área de suporte!</h1>
     <hr/>
     <!-- iniciando o formulário -->
     <form action="insere.php" id="formCadastroCliente" method="post">
@@ -45,8 +45,8 @@
                     <hr/>
                     <div class="row">
                         <div class="col-md-12">
-                            <a href="index.php" class="btn btn-secondary">Voltar</a>
-                            <a href="/crudSimulacao/mensagemSucesso" type="submit" class="btn btn-primary">Enviar</a>
+                            <a href="/crudSimulacao/main/index.php" class="btn btn-secondary">Voltar</a>
+                            <a href="/crudSimulacao/clientes/mensagemSucesso" type="submit" class="btn btn-primary">Enviar</a>
                         </div>
                     </div>
                 </div>

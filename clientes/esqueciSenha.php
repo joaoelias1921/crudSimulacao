@@ -1,6 +1,6 @@
 <!-- IMPORTANDO O HEADER -->
 <?php 
-  require_once('config.php');
+  require_once('../config.php');
   include(HEADER_TEMPLATE); 
 ?>
 
@@ -24,11 +24,8 @@
           <label for="inputEmail">Digite seu e-mail</label>
           <input type="text" class="form-control" id="inputEmail" placeholder="Informe seu e-mail e receba um link para recadastrar sua senha...">
           <br>
-          <a href="/crudSimulacao/confirmSenha.php" role="button" class="btn btn-success btn-block">Enviar</a>
+          <a href="/crudSimulacao/clientes/confirmSenha.php" role="button" class="btn btn-success btn-block">Enviar</a>
         </div>        
       </div>
     </div>
   </body>
-<?php
-  include(FOOTER_TEMPLATE);
-?>

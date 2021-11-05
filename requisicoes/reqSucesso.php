@@ -1,6 +1,6 @@
 <!-- IMPORTANDO O HEADER -->
 <?php 
-  require_once('config.php');
+  require_once('../config.php');
   include(HEADER_TEMPLATE2); 
 ?>
 
@@ -20,11 +20,8 @@
   <body>
     <div class="container">
         <div class="botoes">
-            <a href="/crudSimulacao/minhasReq.php" class="btn btn-primary btn-block" role="button">Acompanhar requisição</a>
-            <a href="/crudSimulacao/index.php" class="btn btn-secondary btn-block" role="button">Voltar</a>
+            <a href="/crudSimulacao/requisicoes/minhasReq.php" class="btn btn-primary btn-block" role="button">Acompanhar requisição</a>
+            <a href="/crudSimulacao/main/index.php" class="btn btn-secondary btn-block" role="button">Voltar</a>
         </div>
     </div>
   </body>
-<?php
-  include(FOOTER_TEMPLATE);
-?>

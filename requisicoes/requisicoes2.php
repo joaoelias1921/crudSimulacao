@@ -1,11 +1,15 @@
 <!-- IMPORTANDO O HEADER -->
 <?php 
-  require_once('config.php');
+  require_once('../config.php');
   include(HEADER_TEMPLATE2); 
 ?>
 
   <br/>
   <hr/>
+  <head>
+    <link rel="stylesheet" href="/crudSimulacao/css/stylesRequisicoes12.css">
+  </head>
+
   <header>
     <div class="container">
       <div class="row justify-content-center align-items-center">
@@ -27,8 +31,8 @@
       </div>
     </div>
     
-    <div class="container" style="width: 90%; background-color: #44245E; margin-top: 3%; margin-bottom: 3vh; display:flex; flex-direction:column; align-items: center;">
-        <div class="container" style="width: 85%; background-color:white; margin-top: 1%; margin-bottom: 3vh; display:flex; flex-direction:column; align-items: center;">
+    <div class="container caixa-roxa">
+        <div class="container-inputs">
             <br>
             <h2>Informações do projeto</h2>
             <br>
@@ -69,7 +73,7 @@
             </h5>
             <br>
             <div class="input-group col-md-10">
-                <div class="input-group-prepend" style="align-items:center;">
+                <div class="input-group-prepend align-items-center">
                     <span class="input-group-text">Arquivo do projeto/planta</span>
                     <input style="margin-left: 1vw" type="file" class="form-control-file" id="arquivoProjeto">
                 </div>                
@@ -91,7 +95,7 @@
             </div>
             <br>
         </div>
-        <a href="/crudSimulacao/sucesso.php" class="btn btn-light btn-block" role="button">Enviar</a>
+        <a href="/crudSimulacao/requisicoes/reqSucesso.php" class="btn btn-light btn-block" role="button">Enviar</a>
         <br>
     </div>
    </body>
