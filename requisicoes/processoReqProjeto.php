@@ -51,11 +51,15 @@
       <br>
       <div class="card-body">
         <p class="card-text text-left"><h3 class="text-left">Progresso</h3></p>
+        <p class="card-text text-left"><h6 class="text-left">Clique em uma das barras para ver mais!</h6></p>
         <br>
-        <div class="progress">
-          <div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">Análise de viabilidade</div>
-        </div>
+        <a href="/crudSimulacao/simulacoes/viabilidadeOK.php">
+          <div class="progress">
+            <div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">Análise de viabilidade</div>
+          </div>
+        </a>
         <br>
+
         <div class="progress">
           <div class="progress-bar bg-success" role="progressbar" style="width: 35%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">Aceite do cliente</div>
         </div>
@@ -71,7 +75,8 @@
         <div class="progress">
           <div class="progress-bar bg-danger" role="progressbar" style="width: 100%;" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">Entrega e Feedback</div>
         </div>
-      </div>        
+      </div>
+      <br><br>
     </div>
     <br><br>
   </body>

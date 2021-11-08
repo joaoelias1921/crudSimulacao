@@ -15,7 +15,7 @@
     
     <title>AJ Simulações 3D</title>
   </head>
-  <body>
+  <body style="background-image: url('/crudSimulacao/imagens/bgsite.jpg');">
   <!-- INICIO - DEFININDO A ÁREA DE CABEÇALHO -->
     <header>
         <nav class="navbar navbar-expand-md navbar-dark bg-dark">
