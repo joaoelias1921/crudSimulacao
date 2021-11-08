@@ -21,66 +21,68 @@
     <div class="container">
       <div class="form-row justify-content-center align-items-center">
         <div class="card-body">
-          <p class="card-text text-left"><strong>Escolha a forma de pagamento desejada</strong></p>
-            <ul class="list-group list-group-flush text-left">
-              <li class="list-group-item">
-                <figure>
-                  <img src="/crudSimulacao/imagens/boleto.png" alt="boletoBancario">
-                  <br><br>
-                  <p>
-                    <button class="btn btn-outline-success col-md-3" type="button" data-toggle="collapse" data-target="#boleto" aria-expanded="false" aria-controls="boleto">
-                      Boleto bancário
-                    </button>
-                  </p>
-                </figure>
+          <div class="container-titulo">
+            <p class="card-text text-left" style="color: white;"><strong>Escolha a forma de pagamento desejada</strong></p>
+          </div>  
+          <ul class="list-group list-group-flush text-left">
+            <li class="list-group-item">
+              <figure>
+                <img src="/crudSimulacao/imagens/boleto.png" alt="boletoBancario">
+                <br><br>
+                <p>
+                  <button class="btn btn-outline-success col-md-3" type="button" data-toggle="collapse" data-target="#boleto" aria-expanded="false" aria-controls="boleto">
+                    Boleto bancário
+                  </button>
+                </p>
+              </figure>
                 
-                <div class="collapse" id="boleto">
-                  <div class="card card-body">
-                    <ul class="list-group list-group-flush text-left">
-                      <li class="list-group-item"><strong>Pague com Boleto: <span style="color: green">R$389,33</span></strong> com desconto (10%) à vista</li>
-                      <li class="list-group-item"><strong>Instruções:</strong> Você terá até <strong>12/11/2021</strong> para realizar o pagamento.</li>
-                      <a href="#" role="button" class="btn btn-success">Escolher</a>
-                    </ul>
-                  </div>
+              <div class="collapse" id="boleto">
+                <div class="card card-body">
+                  <ul class="list-group list-group-flush text-left">
+                    <li class="list-group-item"><strong>Pague com Boleto: <span style="color: green">R$389,33</span></strong> com desconto (10%) à vista</li>
+                    <li class="list-group-item"><strong>Instruções:</strong> Você terá até <strong>12/11/2021</strong> para realizar o pagamento.</li>
+                    <a href="#" role="button" class="btn btn-success">Escolher</a>
+                  </ul>
                 </div>
-              </li>
+              </div>
+            </li>
 
-              <li class="list-group-item">
-                <figure>
-                  <img src="/crudSimulacao/imagens/pix.png" alt="pix">
-                  <br><br>
-                  <p>
-                    <button class="btn btn-outline-success col-md-3" type="button" data-toggle="collapse" data-target="#pix" aria-expanded="false" aria-controls="pix">
-                      PIX
-                    </button>
-                  </p>
-                </figure>
+            <li class="list-group-item">
+              <figure>
+                <img src="/crudSimulacao/imagens/pix.png" alt="pix">
+                <br><br>
+                <p>
+                  <button class="btn btn-outline-success col-md-3" type="button" data-toggle="collapse" data-target="#pix" aria-expanded="false" aria-controls="pix">
+                    PIX
+                  </button>
+                </p>
+              </figure>
                 
 
-                <div class="collapse" id="pix">
-                  <div class="card card-body">
-                    <ul class="list-group list-group-flush text-left">
-                      <li class="list-group-item"><strong>Pague com PIX: <span style="color: green">R$389,33</span></strong> com desconto (10%) à vista</li>
-                      <li class="list-group-item"><strong>Instruções:</strong> Ao escolher esta opção, um QR Code será gerado para pagamento. Este QR Code vencerá em <strong>11/11/2021</strong>, e será cancelado após seu vencimento, caso não ocorra nenhum pagamento.</li>
-                      <a href="#" role="button" class="btn btn-success">Escolher</a>
-                    </ul>
-                  </div>
-                </div>
-              </li>
+              <div class="collapse" id="pix">
+                <div class="card card-body">
+                  <ul class="list-group list-group-flush text-left">
+                    <li class="list-group-item"><strong>Pague com PIX: <span style="color: green">R$389,33</span></strong> com desconto (10%) à vista</li>
+                    <li class="list-group-item"><strong>Instruções:</strong> Ao escolher esta opção, um QR Code será gerado para pagamento. Este QR Code vencerá em <strong>11/11/2021</strong>, e será cancelado após seu vencimento, caso não ocorra nenhum pagamento.</li>
+                    <a href="#" role="button" class="btn btn-success">Escolher</a>
+                  </ul>
+                 </div>
+              </div>
+            </li>
 
-              <li class="list-group-item">
-                <figure>
-                  <img src="/crudSimulacao/imagens/pagseguro.jpg" alt="cartaoPagSeguro">
-                  <br><br>
-                  <p>
-                    <button class="btn btn-outline-success col-md-3" type="button" data-toggle="collapse" data-target="#cartaoPagSeg" aria-expanded="false" aria-controls="cartaoPagSeg">
-                      Cartão de Crédito (PagSeguro)
-                    </button>
-                  </p>
-                </figure>
+            <li class="list-group-item">
+              <figure>
+                <img src="/crudSimulacao/imagens/pagseguro.jpg" alt="cartaoPagSeguro">
+                <br><br>
+                <p>
+                  <button class="btn btn-outline-success col-md-3" type="button" data-toggle="collapse" data-target="#cartaoPagSeg" aria-expanded="false" aria-controls="cartaoPagSeg">
+                    Cartão de Crédito (PagSeguro)
+                  </button>
+                </p>
+              </figure>
                 
-                <div class="collapse" id="cartaoPagSeg">
-                  <div class="card card-body">
+              <div class="collapse" id="cartaoPagSeg">
+                <div class="card card-body">
                     <ul class="list-group list-group-flush text-left">
                       <li class="list-group-item"><strong>Com o PagSeguro, pague em até:</strong> 12x de <strong><span style="color: green">R$36,04 </span></strong>s/ juros</li>
                         <div class="form-row justify-content-center align-items-center">
@@ -217,6 +219,15 @@
       </div>
     </div>
   </body>
+
+  <style type="text/css">
+    .container-titulo{
+        background-color: #44245E;
+        height: 9vh;
+        padding-left: 2ch;
+        padding-top: 2vh;
+    }
+  </style>
 
 <?php
     include(FOOTER_TEMPLATE);

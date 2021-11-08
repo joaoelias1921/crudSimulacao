@@ -60,10 +60,13 @@
         </a>
         <br>
 
-        <div class="progress">
-          <div class="progress-bar bg-success" role="progressbar" style="width: 35%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">Aceite do cliente</div>
-        </div>
+        <a href="/crudSimulacao/simulacoes/aceite.php">
+          <div class="progress">
+            <div class="progress-bar bg-success" role="progressbar" style="width: 35%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">Aceite do cliente</div>
+          </div>
+        </a>        
         <br>
+        
         <div class="progress">
           <div class="progress-bar bg-info" role="progressbar" style="width: 50%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">Aprovação do pagamento</div>
         </div>

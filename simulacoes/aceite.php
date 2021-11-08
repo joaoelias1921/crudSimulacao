@@ -21,7 +21,9 @@
     <div class="container">
         <div class="form-row justify-content-center align-items-center">
             <div class="card-body">
-                <p class="card-text text-left"><strong>Seu projeto</strong></p>
+                <div class="container-titulo">
+                    <p class="card-text text-left" style="color: white;"><strong>Seu projeto</strong></p>
+                </div>           
                 <ul class="list-group list-group-flush text-left">
                     <li class="list-group-item"><strong>Título:</strong> Projeto apartamento Srta. Maria</li>
                     <li class="list-group-item"><strong>Prazo máximo estipulado:</strong> 10/12/2021</li>
@@ -33,7 +35,9 @@
         </div>
         <div class="form-row justify-content-center align-items-center">
             <div class="card-body">
-                <p class="card-text text-left"><strong>Informações do cliente</strong></p>
+                <div class="container-titulo">
+                    <p class="card-text text-left" style="color: white;"><strong>Informações do cliente</strong></p>
+                </div>  
                 <ul class="list-group list-group-flush text-left">
                     <li class="list-group-item"><strong>Projeto para:</strong> Pessoa Física</li>
                     <li class="list-group-item"><strong>Nome:</strong> Maria Antonieta dos Anjos</li>
@@ -44,7 +48,9 @@
         </div>
         <div class="form-row justify-content-center align-items-center">
             <div class="card-body">
-                <p class="card-text text-left"><strong>Informações de desenvolvimento</strong></p>
+                <div class="container-titulo">
+                    <p class="card-text text-left" style="color: white;"><strong>Informações de desenvolvimento</strong></p>
+                </div>  
                 <ul class="list-group list-group-flush text-left">
                     <li class="list-group-item"><strong>Nome do projeto:</strong> Projeto Edifício Maria Antonieta</li>
                     <li class="list-group-item"><strong>Prazo estimado de conclusão:</strong> 25 dias úteis</li>
@@ -180,6 +186,14 @@ e de igual teor e forma, na presença das testemunhas que também o assinam, dan
         </div>
     </div>
 
+    <style type="text/css">
+        .container-titulo{
+            background-color: #44245E;
+            height: 9vh;
+            padding-left: 2ch;
+            padding-top: 2vh;
+        }
+    </style>
  
 
 <?php
