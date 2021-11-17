@@ -45,7 +45,7 @@
             <div class="container-profile">
                 <figure>
                     <img href="#" src="/crudSimulacao/imagens/user.png" alt="Usuário" width="100vw" height="50vh">
-                    <a href="#" class="btn btn-primary btn-md" style="margin-right: 10px;" role="button" >
+                    <a href="/crudSimulacao/clientes/perfil.php" class="btn btn-primary btn-md" style="margin-right: 10px;" role="button" >
                         Meu perfil
                     </a>
                 </figure> 
