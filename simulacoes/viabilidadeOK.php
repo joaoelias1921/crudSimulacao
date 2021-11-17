@@ -1,7 +1,7 @@
 <!-- IMPORTANDO O HEADER -->
 <?php 
   require_once('../config.php');
-  include(HEADER_TEMPLATE); 
+  include(HEADER_TEMPLATE2); 
 ?>
 
   <br/>
@@ -24,7 +24,9 @@
             <ul class="list-group list-group-flush text-left">
                 <li class="list-group-item text-center" style="background-color:green;"><strong><h4 style="color: white;">Sucesso! Seu projeto é viável e já pode ser desenvolvido!</h4></strong></li>
                 <br>
-                <p class="card-text text-left"><strong>Informações referentes ao projeto</strong></p>
+                <div class="container-titulo">
+                  <p class="card-text text-left" style="color: white;"><strong>Informações referentes ao projeto</strong></p>
+                </div>  
                 <li class="list-group-item"><strong>Título:</strong> Projeto apartamento Srta. Maria</li>
                 <li class="list-group-item"><strong>Prazo máximo estipulado:</strong> 10/12/2021</li>
                 <li class="list-group-item"><strong>Orçamento máximo estimado:</strong> R$15000.00</li>
@@ -38,6 +40,15 @@
       </div>
     </div>
   </body>
+
+  <style type="text/css">
+    .container-titulo{
+        background-color: #44245E;
+        height: 9vh;
+        padding-left: 2ch;
+        padding-top: 2vh;
+    }
+  </style>
 
 <?php
     include(FOOTER_TEMPLATE);

@@ -1,7 +1,7 @@
 <!-- IMPORTANDO O HEADER -->
 <?php 
   require_once('../config.php');
-  include(HEADER_TEMPLATE); 
+  include(HEADER_TEMPLATE2); 
 ?>
 
   <br/>
@@ -81,7 +81,7 @@
                         <span aria-hidden="true">&times;</span>
                     </button>
                 </div>
-                <div id="contrato" class="modal-body text-left">
+                <div id="contrato" class="form-control modal-body text-left">
                     <pre>
                             CONTRATO DE PRESTAÇÃO DE SERVIÇOS E DE ASSUNÇÃO DE RESPONSABILIDADE TÉCNICA
 
@@ -192,6 +192,10 @@ e de igual teor e forma, na presença das testemunhas que também o assinam, dan
             height: 9vh;
             padding-left: 2ch;
             padding-top: 2vh;
+        }
+
+        #contrato{
+            min-height:40vh;
         }
     </style>
  

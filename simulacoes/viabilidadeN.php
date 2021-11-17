@@ -1,7 +1,7 @@
 <!-- IMPORTANDO O HEADER -->
 <?php 
   require_once('../config.php');
-  include(HEADER_TEMPLATE); 
+  include(HEADER_TEMPLATE2); 
 ?>
 
   <br/>
@@ -24,7 +24,9 @@
                 <ul class="list-group list-group-flush text-left">
                     <li class="list-group-item text-center" style="background-color: firebrick;"><strong><h4 style="color: white;">O projeto não é viável com base nas informações fornecidas. Tente novamente!</h4></strong></li>
                     <br>
-                    <p class="card-text text-left"><strong>Informações referentes ao projeto</strong></p>
+                    <div class="container-titulo">
+                      <p class="card-text text-left" style="color: white;"><strong>Informações referentes ao projeto</strong></p>
+                    </div>   
                     <li class="list-group-item"><strong>Título:</strong> Projeto apartamento Srta. Maria</li>
                     <li class="list-group-item"><strong>Prazo máximo estipulado:</strong> 10/12/2021</li>
                     <li class="list-group-item"><strong>Orçamento máximo estimado:</strong> R$15000.00</li>
@@ -32,7 +34,7 @@
                 </ul>
                 <br><br>
                 <ul class="list-group list-group-flush text-left">
-                    <li class="list-group-item text-center"><strong>Nota do Desenvolvedor</strong></li>
+                    <li class="list-group-item text-center titulo-nota"><strong>Nota do Desenvolvedor</strong></li>
                     <li class="list-group-item text-left">O projeto requisitado não é viável devido ao curto prazo estipulado pelo cliente, trata-se de um projeto grande que não pode ser desenvolvido no espaço de tempo fornecido. Em caso de necessidade, requisitamos um maior período de tempo para desenvolvimento ou a diminuição das requisições descritas.</li>
                 </ul>
             </div>
@@ -45,6 +47,19 @@
         <br><br>
     </div>
   </body>
+
+  <style type="text/css">
+    .container-titulo{
+        background-color: #44245E;
+        height: 9vh;
+        padding-left: 2ch;
+        padding-top: 2vh;
+    }
+
+    .titulo-nota{
+      background-color: lightseagreen;
+    }
+  </style>
 
 <?php
     include(FOOTER_TEMPLATE);
