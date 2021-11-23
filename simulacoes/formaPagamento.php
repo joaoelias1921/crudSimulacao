@@ -41,7 +41,7 @@
                   <ul class="list-group list-group-flush text-left">
                     <li class="list-group-item"><strong>Pague com Boleto: <span style="color: green">R$389,33</span></strong> com desconto (10%) à vista</li>
                     <li class="list-group-item"><strong>Instruções:</strong> Você terá até <strong>12/11/2021</strong> para realizar o pagamento.</li>
-                    <a href="#" role="button" class="btn btn-success">Escolher</a>
+                    <a href="/crudSimulacao/simulacoes/boletoAguardando.php" role="button" class="btn btn-success">Escolher</a>
                   </ul>
                 </div>
               </div>
